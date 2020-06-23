@@ -1,0 +1,49 @@
+.border {
+    border: solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.community {
+    grid-area: community;
+}
+
+.services {
+    grid-area: services;
+}
+
+.discussionforums {
+    grid-area: discussion
+}
+
+.housing {
+    grid-area: housing;
+}
+
+.forsale{
+    grid-area: sale;
+}
+
+.jobs {
+    grid-area: jobs;
+}
+
+.gigs {
+    grid-area: gigs;
+}
+
+.resume {
+    grid-area: resume;
+}
+
+.content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 820;
+    grid-template-columns: 2em 6em 1em
+}
+
+*{
+    box-sizing: border-box;
+}
